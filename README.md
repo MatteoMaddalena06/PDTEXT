@@ -10,15 +10,15 @@ Nostalgia does not rise?
 # Features
 The program implements:
   
-  ✅ A simple system of lateral and vertical scrolling of the screen and characters.
+     ✅ A simple system of lateral and vertical scrolling of the screen and characters.
   
-  ✅ The storage of overwritten characters in the vertical scroll of the screen.
+     ✅ The storage of overwritten characters in the vertical scroll of the screen.
   
-  ✅ Command line parameters.
+     ✅ Command line parameters.
   
-  ✅ Control characters.
+     ✅ Control characters.
   
-  ❌ Read and write operations on files. (Dos didn't help)
+     ❌ Read and write operations on files. (Dos didn't help)
 
 # Study of the source
 
