@@ -26,25 +26,25 @@ stack ENDS
 code SEGMENT PARA PUBLIC
 
 _start:  
-    mov     ax, 0B800h
-	mov		es, ax
+        mov     ax, 0B800h
+	mov	es, ax
 
 	call    init_editor
 
 	;initial VRAM offset to editing (column 2, line 5)
-	mov	  bx, MIN_OFFSET_FIRTS_LINE
+	mov	bx, MIN_OFFSET_FIRTS_LINE
 
 	edit_run: push    bx
 	          call    read_print_char
-		      add	  sp, 2h
+		  add	  sp, 2h
 
-			  cmp      bx, ESCAPE_OFFSET
-			  jne      edit_run
+		  cmp      bx, ESCAPE_OFFSET
+	          jne      edit_run
 	
 	call    exit_work
 	
 	;return control at MS-DOS
-    mov	 ah, 4ch
+        mov	 ah, 4ch
 	mov	 al, 1
 	int	 21h
 
