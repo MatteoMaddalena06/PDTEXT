@@ -112,7 +112,7 @@ I_O_procedures SEGMENT PARA PRIVATE
 			cmp     dl, MAX_EDITOR_COLUMN
 			je      next_line
 
-	        ;right horizontal scroll
+	        	;right horizontal scroll
 			push	WORD PTR [bp+4]
 			mov	ax, HORIZONTAL_CHAR_RIGHT
 			push	ax
