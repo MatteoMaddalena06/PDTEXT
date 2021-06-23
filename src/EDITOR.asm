@@ -1,5 +1,3 @@
-;non finito
-
 ;--------------------------------------------------------
 ; Modulo per l'inizializzazione dell'editor
 ; 
@@ -92,7 +90,7 @@ procedure SEGMENT PARA PUBLIC
 
 		init_editor ENDP
 
-	;-------------------------------------------
+    ;-------------------------------------------
 
     ;-------------------------------------------
 	; Exit to text editor:
