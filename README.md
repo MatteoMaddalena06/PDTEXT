@@ -22,6 +22,30 @@ The program implements:
 
 # Study of the source
 
+The source consists of 5 modules(▫️) and 2 libraries(▪️)containing the data on the exit screen and menu:
+
+  ▫️ Main.asm = main module, makes calls to main functions.
+
+  ▫️ Editor.asm = defines the functions for initializing the editor.
+  
+  ▫️ I_O.asm = defines the functions for handling I / O by the text editor.
+  
+  ▫️ Shifter.asm = defines the functions for managing the lateral and vertical scrolling of the screen and characters.
+  
+  ▫️ Animation.asm = defines the functions for managing the scrollbar.
+  
+  ▫️ file.asm = to do.
+  
+  ▪️ INIT_EDI.INC = defines the logical segment where the data to be stored in the VRAM for the menu output on the screen. 
+  
+  ▪️ EXIT_IM.INC =  defines the logical segment where the data to be stored in the VRAM for the exit menu output on the                           screen.
+  
+
+
+
+
+
+
 
   
 
