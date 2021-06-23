@@ -32,7 +32,7 @@
 ;------------------------------------------------------
 ; Special ASCII/Scan code Macro
 
-    ESCAPE_OFFSET 	  EQU  0h    ;(Ascii decimal:0)
+    	ESCAPE_OFFSET 	  EQU  0h    ;(Ascii decimal:0)
 	BACKSPACE_KEY 	  EQU  8h    ;(Ascii decimal: 8)
 	ENTER_KEY     	  EQU  0Dh   ;(Ascii decimal: 13)
 	ESC_KEY	      	  EQU  1Bh   ;(Ascii decimal: 27)
