@@ -6,6 +6,7 @@ It was developed completely in assembly, working in real mode, it relies only on
 ![Schermata del 2021-06-23 19-23-23](https://user-images.githubusercontent.com/74959879/123141274-82b45900-d458-11eb-8c5d-d077d50f3ed0.png)
 
 Nostalgia does not rise?
+
 Why did I do it? Just for fun, I have to admit that many times there have been mistakes that I couldn't fix, and I got really nervous.
 
 # Features
