@@ -35,10 +35,6 @@ procedure SEGMENT PARA PUBLIC
     ; Value return: NULL
 		
 		init_editor PROC FAR
-			
-			push	bp
-
-			mov     bp, sp
 
 			push	ax
 			push	bx
@@ -47,7 +43,7 @@ procedure SEGMENT PARA PUBLIC
 			push	ds
 
 			;vide mode 03h (BIOS service)
-			mov	ah, 0h
+                        xor     ah, ah
 			mov	al, 03h
 			int	10h
 
@@ -81,8 +77,7 @@ procedure SEGMENT PARA PUBLIC
 			       add     di, 2h
 			       loop    write
 
-			_end_e: pop     bp
-				pop 	dx
+			_end_e: pop 	dx
 				pop	cx
 				pop	bx
 				pop	ax
